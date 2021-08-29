@@ -1,0 +1,15 @@
+GET http://localhost:9000/messages/sync/
+
+
+###
+POST http://localhost:9000/messages/new
+Content-Type: application/json
+
+{
+    "message":"It is False Jayszx",
+    "name": "Jay",
+    "timestamp":"2021-06-24",
+    "received": true
+}
+
+
