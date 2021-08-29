@@ -1,0 +1,78 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  background-color: rgb(214, 209, 209);
+}
+
+.chat_header {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(228, 233, 227);
+  justify-content: space-between;
+}
+.chat_header_info {
+  font-size: 12px;
+}
+
+.symbol-icon {
+  color: gray;
+}
+
+.chat_header_info > p {
+  color: gray;
+}
+
+.convo-place {
+  height: 70vh;
+  margin: 5px;
+  overflow: scroll;
+  background-repeat: repeat;
+  background-image: url(https://cdn.statically.io/img/i.pinimg.com/736x/17/06/b6/1706b65720ee6671eaa6bf5db59a4d3a.jpg);
+}
+
+.message-receiver {
+  position: relative;
+  width: fit-content;
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.person-name {
+  position: absolute;
+  top: -22px;
+  color: #f1f1f7;
+  font-weight: bold;
+}
+
+.message {
+  position: relative;
+  width: fit-content;
+  background-color: #dcf8c6;
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.message-time {
+  margin-left: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(215, 221, 218);
+}
+
+input {
+  border: 0px solid;
+  height: 5vh;
+  outline-width: 0;
+  border-radius: 5px;
+}
